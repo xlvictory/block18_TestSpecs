@@ -23,4 +23,17 @@ prompt 2: A function called "concatOdds" takes two arrays of integers as argumen
 
 /* 
 FUNCTIONAL TESTS:
+
+prompt 1: A shopping cart checkout feature that allows a user to check out as a guest (without an account), or as a logged-in user. They should be allowed to do either, but should be asked if they want to create an account or log in if they check out as a guest.
+
+1. If the cart is empty, there should be an option/button, i.e. "Keep Shopping!", that closes the cart page and returns the user back to the item/page they were on before they clicked the cart button.
+2. If the cart has items in it, there should be a checkout button after the items in the cart, split into two options: "Checkout as a guest" or "Log In". There's also still the "Keep Shopping!" button to return if the user isn't done with their cart.
+3. If the "Log In" button is selected, it will bring a pop-up of a login screen with the option to create an account beneath it.
+4. The Login options are presented on the cart screen.
+5. If continuing as a guest, the user is taken to the Informational screen, where they enter their name, email, shipping address, etc.
+6. If logging in, the user is taken to the Informational page, where their default information is contained in the text fields.
+7. If the user created a brand new account, it will look like the guest informational page, but once the user inputs their information, it is stored onto their account for the next instance of purchase.
+8. If the user inputs an invalid email, whether at login or account creation, the form will return an error.
+9. If the user inputs the wrong email/password, the form will return an error.
+10. After creating an account, the user will be directed to the rest of the checkout page.
 */
